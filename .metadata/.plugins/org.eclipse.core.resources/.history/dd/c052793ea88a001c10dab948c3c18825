@@ -1,0 +1,15 @@
+package com.projonboarding.main;
+
+import com.projonboarding.questionone.AscendingNumbers;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		AscendingNumbers.ascendingCheck("12345");
+		AscendingNumbers.ascendingCheck("324165");
+		AscendingNumbers.ascendingCheck("123454");
+
+	}
+
+}
