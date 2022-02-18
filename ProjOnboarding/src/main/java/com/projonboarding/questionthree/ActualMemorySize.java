@@ -15,6 +15,7 @@ public class ActualMemorySize {
 		
 		String output = "";
 		
+		// What to do if the data is in GB
 		if (type.equals("GB")) {
 			if (actualMemory < 1) {
 				output = actualMemory + "MB";
@@ -23,6 +24,7 @@ public class ActualMemorySize {
 			}
 		}
 		
+		// What to do if the data is in MB
 		if (type.equals("MB")) {
 			output = actualMemory + type;
 		}
