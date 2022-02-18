@@ -1,0 +1,10 @@
+package com.projonboarding.questionthree;
+
+public class ActualMemorySize {
+
+	public static String actualMemorySize(String size) {
+		// Setup a string that will only hold the digits before 
+		String number = size.substring(0, size.length() - 2);
+	}
+	
+}

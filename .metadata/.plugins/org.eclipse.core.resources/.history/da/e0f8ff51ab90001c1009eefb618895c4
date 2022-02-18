@@ -1,0 +1,28 @@
+package com.projonboarding.questionthree;
+
+public class ActualMemorySize {
+
+	public static void actualMemorySize(String size) {
+		// Setup a string that will only hold the digits before the GB/MB
+		String number = size.substring(0, size.length() - 2);
+		String type = size.substring(size.length()-2, size.length());
+		
+		// Parse the number String to a double to utilize it for equations
+		double memory = Double.parseDouble(number);
+		
+		// Multiply the memory size by 0.93 to get the 'actual memory size'
+		double actualMemory = memory * 0.93;
+		
+		if (type.equals("GB")) {
+			String output = 
+		}
+		
+		if (type.equals("MB")) {
+			System.out.println("MEGABYTE");
+		}
+		
+		System.out.println(actualMemory);
+		System.out.println(type);
+	}
+	
+}

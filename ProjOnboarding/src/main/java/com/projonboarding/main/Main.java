@@ -1,6 +1,7 @@
 package com.projonboarding.main;
 
 import com.projonboarding.questionone.AscendingNumbers;
+import com.projonboarding.questionthree.ActualMemorySize;
 import com.projonboarding.questiontwo.SquarePatch;
 
 public class Main {
@@ -12,7 +13,11 @@ public class Main {
 //		System.out.println(AscendingNumbers.ascendingCheck("123454"));
 //		System.out.println(AscendingNumbers.ascendingCheck("444445"));
 		
-		SquarePatch.patch(0);
+//		SquarePatch.patch(0);
+		
+		ActualMemorySize.actualMemorySize("32GB");
+		ActualMemorySize.actualMemorySize("512MB");
+		ActualMemorySize.actualMemorySize("1GB");
 
 	}
 
